@@ -1,0 +1,21 @@
+
+// OpenCL kernel. Each work item takes care of one element of c
+__kernel void convolve(__global float *src, const unsigned int size, __global float *conv, const unsigned int convSize, float scaling, __global float *dest)
+{
+    //Get our global thread ID
+    int x = get_global_id(0);
+
+    //Make sure we do not go out of bounds
+    if(x >= size) return;
+
+	float value = 0.0;
+	for(int xx = 0; xx < convSize; xx++)
+	{
+		int i = xx - (convSize - 1) / 2;
+		int actualX = x + i;
+		float m = actualX >= 0 ? (actualX < width ? src[actualX] : 0) : 0;
+		value += conv[xx] * m * scaling;
+	}
+	dst[x] = value;
+}
+

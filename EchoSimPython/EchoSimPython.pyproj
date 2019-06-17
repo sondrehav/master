@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8428e7c3-74fa-40cb-bc37-eaca498a0e9e}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>twostepleapfrog.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="analytic.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="analytic1d.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="analytic2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="analytic3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="analytic_leapfrog.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="boundaryTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hexgrid.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="interface.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="laplacianHex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="twostepleapfrog.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="neuralnet.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="shift_solve.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="shift_solve2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="solver.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="stft.py" />
+    <Compile Include="test.py" />
+    <Compile Include="transformtest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="voxelizer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wave1d_leapfrog.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wave_1d-nonreflecting.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wave_2d_ex.py" />
+    <Compile Include="wave_2d_ex_2.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

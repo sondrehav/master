@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "EchoSimPython", "EchoSimPython.pyproj", "{8428E7C3-74FA-40CB-BC37-EACA498A0E9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8428E7C3-74FA-40CB-BC37-EACA498A0E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8428E7C3-74FA-40CB-BC37-EACA498A0E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6617295E-04B4-43A5-9ECE-FEFDE9F5A26B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+#pragma once
+
+#define ORDER 6
+
+#if ORDER == 2
+
+#define CONVOLUTION_SIZE 3
+#define CONVOLUTION { 0.5, 0.0, -0.5 }
+#define PADDING ((CONVOLUTION_SIZE - 1)/2)
+
+#elif ORDER == 4
+
+#define CONVOLUTION_SIZE 5
+#define CONVOLUTION { -0.08333333, 0.66666667, 0., -0.66666667, 0.08333333 }
+#define PADDING ((CONVOLUTION_SIZE - 1)/2)
+
+#elif ORDER == 6
+
+#define CONVOLUTION_SIZE 7
+#define CONVOLUTION { 1.66666667e-02, - 1.50000000e-01,  7.50000000e-01,  0, - 7.50000000e-01,  1.50000000e-01, - 1.66666667e-02 }
+#define PADDING ((CONVOLUTION_SIZE - 1)/2)
+
+#endif
+

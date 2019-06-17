@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConvolutionReverb_StandalonePlugin", "ConvolutionReverb_StandalonePlugin.vcxproj", "{1E3FD303-37AA-F6D3-1491-84D79BE35718}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B789323E-7774-C10C-1C6C-3BBA97E0BFF8} = {B789323E-7774-C10C-1C6C-3BBA97E0BFF8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConvolutionReverb_VST3", "ConvolutionReverb_VST3.vcxproj", "{A3E69249-6101-4749-A3B3-CF64D5888182}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B789323E-7774-C10C-1C6C-3BBA97E0BFF8} = {B789323E-7774-C10C-1C6C-3BBA97E0BFF8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConvolutionReverb_SharedCode", "ConvolutionReverb_SharedCode.vcxproj", "{B789323E-7774-C10C-1C6C-3BBA97E0BFF8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simulator", "OpenCLTest.vcxproj", "{01D5E3BF-734B-43E1-9810-0B545FDC8933}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		DebugStandalone|x64 = DebugStandalone|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E3FD303-37AA-F6D3-1491-84D79BE35718}.Debug|x64.ActiveCfg = Debug|x64
+		{1E3FD303-37AA-F6D3-1491-84D79BE35718}.Debug|x64.Build.0 = Debug|x64
+		{1E3FD303-37AA-F6D3-1491-84D79BE35718}.DebugStandalone|x64.ActiveCfg = DebugStandalone|x64
+		{1E3FD303-37AA-F6D3-1491-84D79BE35718}.DebugStandalone|x64.Build.0 = DebugStandalone|x64
+		{1E3FD303-37AA-F6D3-1491-84D79BE35718}.Release|x64.ActiveCfg = Release|x64
+		{1E3FD303-37AA-F6D3-1491-84D79BE35718}.Release|x64.Build.0 = Release|x64
+		{A3E69249-6101-4749-A3B3-CF64D5888182}.Debug|x64.ActiveCfg = Debug|x64
+		{A3E69249-6101-4749-A3B3-CF64D5888182}.Debug|x64.Build.0 = Debug|x64
+		{A3E69249-6101-4749-A3B3-CF64D5888182}.DebugStandalone|x64.ActiveCfg = DebugStandalone|x64
+		{A3E69249-6101-4749-A3B3-CF64D5888182}.DebugStandalone|x64.Build.0 = DebugStandalone|x64
+		{A3E69249-6101-4749-A3B3-CF64D5888182}.Release|x64.ActiveCfg = Release|x64
+		{A3E69249-6101-4749-A3B3-CF64D5888182}.Release|x64.Build.0 = Release|x64
+		{B789323E-7774-C10C-1C6C-3BBA97E0BFF8}.Debug|x64.ActiveCfg = Debug|x64
+		{B789323E-7774-C10C-1C6C-3BBA97E0BFF8}.Debug|x64.Build.0 = Debug|x64
+		{B789323E-7774-C10C-1C6C-3BBA97E0BFF8}.DebugStandalone|x64.ActiveCfg = DebugStandalone|x64
+		{B789323E-7774-C10C-1C6C-3BBA97E0BFF8}.DebugStandalone|x64.Build.0 = DebugStandalone|x64
+		{B789323E-7774-C10C-1C6C-3BBA97E0BFF8}.Release|x64.ActiveCfg = Release|x64
+		{B789323E-7774-C10C-1C6C-3BBA97E0BFF8}.Release|x64.Build.0 = Release|x64
+		{01D5E3BF-734B-43E1-9810-0B545FDC8933}.Debug|x64.ActiveCfg = Debug|x64
+		{01D5E3BF-734B-43E1-9810-0B545FDC8933}.Debug|x64.Build.0 = Debug|x64
+		{01D5E3BF-734B-43E1-9810-0B545FDC8933}.DebugStandalone|x64.ActiveCfg = DebugStandalone|x64
+		{01D5E3BF-734B-43E1-9810-0B545FDC8933}.DebugStandalone|x64.Build.0 = DebugStandalone|x64
+		{01D5E3BF-734B-43E1-9810-0B545FDC8933}.Release|x64.ActiveCfg = Release|x64
+		{01D5E3BF-734B-43E1-9810-0B545FDC8933}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AE2152C-B74B-425C-B1B6-0B682707F7A1}
+	EndGlobalSection
+EndGlobal
